@@ -46,5 +46,5 @@
 		"spaced-comment": "error",
 		"yoda": "error"
 	},
-    "ignorePatterns": ["dist/*"]
+    "ignorePatterns": ["dist/*"],
 }
