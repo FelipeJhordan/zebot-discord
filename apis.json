@@ -1,0 +1,11 @@
+{
+    "links":[{
+        "name": "Api de piadas do chuck-norris",
+        "slug": "chuckNorrisApi",
+        "url": "https://api.chucknorris.io/jokes"
+    }, {
+        "name": "Api de tradução",
+        "slug": "translatorApi",
+        "url": "https://"
+    }]
+}
