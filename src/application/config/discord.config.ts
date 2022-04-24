@@ -3,5 +3,7 @@ import "dotenv/config"
 const env = process.env
 
 export const discordConfig = {
-    clientId: env.DISCORD_TOKEN
+    discordToken: env.DISCORD_TOKEN,
+    clientId: env.CLIENT_ID,
+    preffix: env.PREFFIX || ''
 }
