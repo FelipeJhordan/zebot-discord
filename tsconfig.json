@@ -1,8 +1,14 @@
 {
-    "extends": "@tsconfig/node16/tsconfig.json",
     "compilerOptions": {
-        "outDir": "dist"
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "target": "ES2019",       
+        "sourceMap": true,
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
     },
-    "include": ["src"],
-    "exclude": ["node_modules"]
 }
