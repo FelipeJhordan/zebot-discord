@@ -4,7 +4,7 @@
   "description": "Boot criado com node com objetivo de utilizar em um canal de discord.",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/main.js",
+    "start": "node dist/src/main.js",
     "start:dev": "ts-node-dev src/main.ts",
     "build": "rimraf dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,6 +35,7 @@
     "discord-api-types": "^0.31.2",
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
-    "mongoose": "^6.3.0"
+    "mongoose": "^6.3.0",
+    "node-fetch": "^2.6.7"
   }
 }
